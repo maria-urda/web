@@ -1,0 +1,115 @@
+:root {
+  --tiza-white: #fcf8ec;
+  --very-light-blue: #d0e8f2;
+  --light-blue: #79a3b1;
+  --dark-blue: #456268;
+  --main-font: 'Nunito', sans-serif;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  font-family: var(--main-font);
+  background-color: var(--tiza-white);
+}
+
+main {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto;
+      grid-template-columns: auto;
+  justify-items: center;
+  place-self: center;
+}
+
+img {
+  margin: 15px;
+}
+
+h3 {
+  color: var(--dark-blue);
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.profile-picture {
+  width: 13rem;
+  border: 0.3em solid var(--light-blue);
+  border-radius: 50%;
+}
+
+.button-container {
+  display: -ms-grid;
+  display: grid;
+  row-gap: 15px;
+  place-self: center;
+}
+
+.button {
+  width: 280px;
+  height: 60px;
+  background-color: var(--light-blue);
+  border: none;
+  border-radius: 8px;
+  padding-top: 10px;
+}
+
+a:link {
+  font-family: var(--main-font);
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #d0e8f2;
+  text-align: center;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #d0e8f2;
+}
+
+.button:hover {
+  background-color: var(--very-light-blue);
+  color: var(--dark-blue);
+  cursor: pointer;
+}
+
+.button:active {
+  border: none;
+  font-size: 1.5rem;
+}
+
+footer {
+  -ms-flex-item-align: baseline;
+      align-self: baseline;
+  place-self: center;
+}
+
+h2 {
+  margin: 0;
+}
+
+.fa-envelope {
+  color: var(--dark-blue);
+  cursor: pointer;
+  font-size: 25px;
+  margin: 10px;
+}
+
+.fa-whatsapp {
+  color: var(--dark-blue);
+  cursor: pointer;
+  font-size: 25px;
+  margin: 0 10px;
+}
+/*# sourceMappingURL=style.css.map */
